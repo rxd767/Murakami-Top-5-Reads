@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: Lucida Console, monospace, sans-serif;
+  /* border: 0.5px solid black; */
+} 
+
+body {
+  background-color: #d8c4c4;
+}
+
+.mainheader {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 75px;
+  
+}
+
+.pageheader {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  display: table-cell;
+  vertical-align: top;
+ 
+  
+}
+
+/* Clearfix (clear floats) */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columnsfive {
+  float: left;
+  width: 20%;
+  padding: 2%;
+}
+
+.columnstwo {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  
+}
+
+.ninetyPercentWidth {
+  margin: auto;
+  width: 90%;
+}
+
+.navigation {
+  /* margin:auto; 
+    width: 90%; */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  width: 20%;
+  font-size: 20px;
+  
+  letter-spacing: 2px;
+  padding: 25px 25px;
+  text-transform: uppercase;
+  color: rgb(226, 63, 63);
+  text-align: center;
+}
+
+.authorsummary {
+  margin: auto;
+  width: 90%;
+  line-height: 1.6;
+  
+  font-size: 20px;
+  font-weight: normal;
+  /* padding: 5px; */
+}
+
+.maincontent {
+  width: 50%;
+  margin: auto;
+  /* line-height: 1.6; */
+  padding: 25px;
+  font-size: 20px;
+ 
+}
+
+/* .writer-img {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.byline {
+  color: red;
+  float: left;
+  font-size: 20px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.header {
+  display: inline-block;
+} */
+
+
+
+.share {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+ 
+
+.fas, .fab {
+  padding: 5px;  
+  color:red;
+  
+}
+
+.maincontent p {
+text-align: center;
+margin-top: 50px;
+}
+
+.home {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+}
+
+
+
+
+
